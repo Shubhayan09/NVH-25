@@ -22,6 +22,7 @@ const sampleTeamsData = {
         { id: 10, name: "Team-10", score: 0 },
         { id: 18, name: "Team-18", score: 0 },
         { id: 19, name: "Team-19", score: 0 },
+        { id: 20, name: "Team-20", score: 0 },
         { id: 24, name: "Team-24", score: 0 },
         { id: 25, name: "Team-25", score: 0 },
         { id: 26, name: "Team-26", score: 0 },
@@ -271,4 +272,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize the app
     checkAndInitializeDatabase();
+
 });
